@@ -18,16 +18,6 @@ body {
   overflow: hidden;
 }
 
-.bg {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  filter: blur(80px);
-  transform: scale(1.2);
-}
-
 /*--------------------
 Chat
 --------------------*/
@@ -51,7 +41,9 @@ Chat
 
 @media (max-width:400px) {
   .chat {
-    width: 90vw;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0px;
   }
 
 }
