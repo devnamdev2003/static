@@ -42,7 +42,7 @@ Chat
 @media (max-width:400px) {
   .chat {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     border-radius: 0px;
   }
 
