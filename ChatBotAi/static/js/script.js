@@ -46,7 +46,7 @@ $(window).on('keydown', function (e) {
 
 
 function sendMessage() {
-      $('<div class="message loading new"><figure class="avatar"><img src="https://static-file-im5k.onrender.com/ChatBotAi/static/chatbot.png"/ alt="chatbot"></figure><span></span></div>').appendTo($('.mCSB_container'));
+      $('<div class="message loading new"><figure class="avatar"><img src="https://filesstatic.netlify.app/ChatBotAi/static/chatbot.png"/ alt="chatbot"></figure><span></span></div>').appendTo($('.mCSB_container'));
       updateScrollbar();
       var userMessage = $('#user-message').val();
       $.ajax({
@@ -58,7 +58,7 @@ function sendMessage() {
                   console.log(aiResponse);
                   setTimeout(function () {
                         $('.message.loading').remove();
-                        $('<div class="message new"><figure class="avatar"><img src="https://static-file-im5k.onrender.com/ChatBotAi/static/chatbot.png"/ alt="chatbot"></figure>' + aiResponse + '</div>').appendTo($('.mCSB_container')).addClass('new');
+                        $('<div class="message new"><figure class="avatar"><img src="https://filesstatic.netlify.app/ChatBotAi/static/chatbot.png"/ alt="chatbot"></figure>' + aiResponse + '</div>').appendTo($('.mCSB_container')).addClass('new');
                         setDate();
                         updateScrollbar();
                         i++;
