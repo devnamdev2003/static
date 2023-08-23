@@ -51,7 +51,7 @@ function sendMessage() {
       var userMessage = $('#user-message').val();
       $.ajax({
             type: 'POST',
-            url: '/chat_view/',
+            url: 'https://chat-di.onrender.com/chat_view/',
             data: { message: userMessage },
             success: function (data) {
                   var aiResponse = data.response;

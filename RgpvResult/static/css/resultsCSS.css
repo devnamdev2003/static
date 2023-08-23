@@ -1,0 +1,177 @@
+body {
+    font-family: Verdana, Arial;
+    font-size: 12px;
+    color: #333333;
+    line-height: 1.166;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+    background-color: #EBEEF3;
+}
+
+img {
+    border: 0px;
+}
+
+p {
+    font-family: Verdana, Arial;
+    font-size: 12px;
+    color: #333333;
+    line-height: 18px;
+    padding: 5px 3px 3px 5px;
+    text-align: justify;
+}
+
+.Normaltext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #963;
+    font-weight: 700;
+}
+
+.FieldText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+    background-color: #CAE8EA;
+    font-weight: 700;
+    border: thin solid #CCC;
+}
+
+.lightcolorField {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #963;
+    background-color: #FFFAEA;
+    font-weight: 700;
+    border: thin solid #CCC;
+}
+
+.resultText {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    border: thin solid #CCC;
+}
+
+table.gridtable {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+.rslmain {
+    border: 8px #FFF solid;
+    background-color: #FFFFFF;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    background: #97d4fc;
+    height: auto;
+    width: 100%;
+    border-bottom: #d9281e 4px solid;
+    border-top: #7aa4cd 8px solid;
+}
+
+.logo_contain {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0px 10px 0px;
+    float: left;
+}
+
+.name_contain {
+    text-align: center;
+    height: 100px;
+    margin-left: 55px;
+    padding-top: 15px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #114C88;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.name_contain span {
+    font-family: Verdana, Monotype Corsiva;
+    color: #ED1C24;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.name_contain .mis {
+    text-align: right;
+    font: 10pt Tahoma;
+    font-weight: bold;
+    line-height: normal;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+.name_contain .mis a {
+    color: #0373BD;
+    text-decoration: none;
+}
+
+.name_contain .mis a:hover {
+    color: #FFFFFF;
+}
+
+.rslcenter {
+    background-color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 480px;
+}
+
+.footer-copyright {
+    background-color: #3f678e;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0px;
+    border-top: 2px solid #18334d;
+    border-bottom: 2px solid #18334d;
+}
+
+.footer-copyright .copyright {
+    font-size: 11px;
+    color: #FFF;
+}
+
+.footer-copyright .copyright a {
+    color: #52def5;
+}
+
+.resultheader {
+    background: #f9f4d6;
+    height: 90px;
+    border: #bcb58b 1px solid;
+    text-align: center;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #302603;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+}
