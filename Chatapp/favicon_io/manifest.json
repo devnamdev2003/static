@@ -1,7 +1,11 @@
 {
-    "name": "chatapp",
-    "short_name": "D",
+    "name": "Chat App",
+    "short_name": "ChatApp",
     "description": "An interactive chat application",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
     "icons": [
         {
             "src": "https://filesstatic.netlify.app/Chatapp/favicon_io/android-chrome-192x192.png",
@@ -15,8 +19,5 @@
             "type": "image/png",
             "purpose": "any maskable"
         }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    ]
 }
