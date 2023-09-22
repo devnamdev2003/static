@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 html,
@@ -103,7 +105,7 @@ Messages
 --------------------*/
 .messages {
   flex: 1 1 auto;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
   overflow: hidden;
   /* overflow-y: visible; */
   position: relative;
@@ -125,7 +127,7 @@ Messages
   border-radius: 10px 10px 10px 0;
   background: rgba(0, 0, 0, 0.954);
   margin: 8px 0;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.4;
   margin-left: 35px;
   position: relative;
@@ -173,7 +175,7 @@ Messages
 
 .messages .message.message-personal {
   float: right;
-  color: #b2b2b2;
+  color: #ffffff;
   text-align: right;
   background: black;
   border-radius: 10px 10px 0 10px;
@@ -198,6 +200,8 @@ Messages
   -webkit-animation: bounce 500ms linear both;
   animation: bounce 500ms linear both;
   /* border: 2px solid black; */
+  color: rgba(255, 255, 255, 0.9);
+
 
 }
 

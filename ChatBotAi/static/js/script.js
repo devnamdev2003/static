@@ -62,9 +62,14 @@ function sendMessage() {
                         setDate();
                         updateScrollbar();
                         i++;
-                  }, 1000 + Math.random() * 20 * 100);
+                  });
             },
             error: function () {
+                  $('.message.loading').remove();
+                  $('<div class="message new"><figure class="avatar"><img src="https://filesstatic.netlify.app/ChatBotAi/static/chatbot.png"/ alt="chatbot"></figure>' + "Failed to get AI response." + '</div>').appendTo($('.mCSB_container')).addClass('new');
+                  setDate();
+                  updateScrollbar();
+                  i++;
                   console.log('Failed to get AI response.');
             }
       });
